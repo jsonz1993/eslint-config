@@ -1,0 +1,12 @@
+{
+  "name": "@jsonz/eslint-config-monorepo",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jsonz1993 <jsonz@qq.com> (https://github.com/jsonz1993)",
+  "private": true,
+  "license": "MIT"
+}
