@@ -1,0 +1,27 @@
+{
+  "name": "@jsonz/eslint-config",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "keywords": [],
+  "author": "jsonz <jsonz@qq.com> (https://github.com/jsonz1993)",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@jsonz/eslint-config-react": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0"
+  }
+}
