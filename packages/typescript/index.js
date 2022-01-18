@@ -3,7 +3,7 @@
  * @Date: 2022-01-18 16:10:20
  * @Email: jsonz@qq.com
  * @LastEditors: Jsonz
- * @LastEditTime: 2022-01-18 17:08:18
+ * @LastEditTime: 2022-01-18 21:45:15
  * @Description: file content
  */
 const basic = require('@jsonz/eslint-config-basic')
@@ -13,6 +13,10 @@ module.exports = {
     '@jsonz/eslint-config-basic',
     'plugin:@typescript-eslint/recommended',
   ],
+  parserOptions: {
+    sourceType: 'module',
+    ecmaVersion: 2021,
+  },
   overrides: basic.overrides,
   rules: {
     // TS

@@ -3,7 +3,7 @@
  * @Date: 2022-01-18 15:32:13
  * @Email: jsonz@qq.com
  * @LastEditors: Jsonz
- * @LastEditTime: 2022-01-18 16:03:50
+ * @LastEditTime: 2022-01-18 21:49:48
  * @Description: file content
  */
 
@@ -47,5 +47,7 @@ module.exports = {
     'curly': ['error', 'multi-or-nest', 'consistent'],
     'quotes': ['error', 'single'],
     'quote-props': ['error', 'consistent-as-needed'],
+
+    'space-before-function-paren': ['error', { anonymous: 'always', named: 'never', asyncArrow: 'always' }],
   },
 }
