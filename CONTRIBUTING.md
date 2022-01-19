@@ -14,3 +14,7 @@
 - 运行 `pnpm install` 更新 pnpm-lock 并重新构建包
 - git add . && npm run commit 提交更改
 - pnpm publish -r
+
+## TODO
+1. 发布打Tags
+2. 自动收集git commit集成到changeset
