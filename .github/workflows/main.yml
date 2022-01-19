@@ -8,9 +8,18 @@ env:
   PNPM_CACHE_FOLDER: .pnpm-store
 jobs:
   version:
-    timeout-minutes: 15
+    timeout-minutes: 3
     runs-on: ubuntu-latest
     steps:
+      - name: Creating .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            email=jsonz@qq.com
+            //registry.npmjs.org/:_authToken=$NPM_TOKEN
+          EOF
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: checkout code repository
         uses: actions/checkout@v2
         with:
@@ -22,17 +31,20 @@ jobs:
       - name: install pnpm
         run: npm i pnpm@latest -g
       - name: Setup npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+          cat .npmrc
       - name: setup pnpm config
         run: pnpm config set store-dir $PNPM_CACHE_FOLDER
       - name: install dependencies
         run: pnpm install
+
       - name: create and publish versions
-        uses: changesets/action@master
+        uses: changesets/action@v1
         with:
-          version: pnpm changeset version
           commit: "chore: update versions"
           title: "chore: update versions"
-          publish: npm i && pnpm publish -r
+          version: pnpm ci:version
+          publish: pnpm ci:publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
