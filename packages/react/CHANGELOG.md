@@ -1,5 +1,12 @@
 # @jsonz/eslint-config-react
 
+## 0.2.2
+
+### Patch Changes
+
+- Updated dependencies [5e64c14]
+  - @jsonz/eslint-config-ts@0.2.1
+
 ## 0.2.1
 
 ### Patch Changes
