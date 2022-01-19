@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-ts
 
+## 0.2.1
+
+### Patch Changes
+
+- 5e64c14: remove peerDependencies
+
 ## 0.2.0
 
 ### Minor Changes
