@@ -16,6 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@jsonz/eslint-config-ts": "workspace:*"
+    "@jsonz/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.28.0"
   }
 }
