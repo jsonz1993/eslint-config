@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-react
 
+## 0.2.1
+
+### Patch Changes
+
+- ffc222f: add dependencies
+
 ## 0.2.0
 
 ### Minor Changes
