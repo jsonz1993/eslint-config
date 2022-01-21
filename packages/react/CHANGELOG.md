@@ -1,5 +1,17 @@
 # @jsonz/eslint-config-react
 
+## 0.3.0
+
+### Minor Changes
+
+- 24eb7a6: - 统一版本到 0.2.2
+  - 更新 eslint-config-standard@17
+
+### Patch Changes
+
+- Updated dependencies [24eb7a6]
+  - @jsonz/eslint-config-ts@0.3.0
+
 ## 0.2.2
 
 ### Patch Changes

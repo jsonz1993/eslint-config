@@ -1,5 +1,12 @@
 # @jsonz/eslint-config-basic
 
+## 0.3.0
+
+### Minor Changes
+
+- 24eb7a6: - 统一版本到 0.2.2
+  - 更新 eslint-config-standard@17
+
 ## 0.2.0
 
 ### Minor Changes
