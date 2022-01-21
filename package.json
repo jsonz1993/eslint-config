@@ -5,11 +5,11 @@
   "scripts": {
     "lint": "eslint --ext .js packages",
     "preinstall": "npx only-allow pnpm",
-    "commit": "cz",
+    "cz": "cz",
     "test": "echo \"Error: no test specified\" && exit 1",
     "u": "pnpm changeset",
     "ci:version": "pnpm changeset version",
-    "ci:publish": "pnpm publish -r --no-git-checks"
+    "ci:publish": "ts-node ./scripts/publish.ts"
   },
   "keywords": [],
   "author": "Jsonz1993 <jsonz@qq.com> (https://github.com/jsonz1993)",
@@ -38,6 +38,7 @@
     "url": "https://github.com/jsonz1993/eslint-config/issues/new"
   },
   "devDependencies": {
+    "@actions/exec": "^1.1.0",
     "@changesets/cli": "^2.19.0",
     "@commitlint/cli": "^16.0.2",
     "@commitlint/config-conventional": "^16.0.0",
@@ -47,6 +48,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.7.0",
     "lint-staged": "^12.1.7",
+    "package-json": "^7.0.0",
     "simple-git-hooks": "^2.7.0",
     "typescript": "^4.5.4"
   }
