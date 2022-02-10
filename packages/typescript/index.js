@@ -3,7 +3,7 @@
  * @Date: 2022-01-18 16:10:20
  * @Email: jsonz@qq.com
  * @LastEditors: Jsonz
- * @LastEditTime: 2022-01-18 21:45:15
+ * @LastEditTime: 2022-02-10 17:21:49
  * @Description: file content
  */
 const basic = require('@jsonz/eslint-config-basic')
@@ -32,8 +32,6 @@ module.exports = {
     '@typescript-eslint/no-redeclare': 'error',
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
-    'brace-style': 'off',
-    '@typescript-eslint/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
     'comma-dangle': 'off',
     '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
     'object-curly-spacing': 'off',
