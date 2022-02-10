@@ -1,5 +1,16 @@
 # @jsonz/eslint-config
 
+## 0.4.0
+
+### Minor Changes
+
+- 23d4676: add prettier plugin and change brace-style rule
+
+### Patch Changes
+
+- Updated dependencies [23d4676]
+  - @jsonz/eslint-config-react@0.4.0
+
 ## 0.3.0
 
 ### Minor Changes
