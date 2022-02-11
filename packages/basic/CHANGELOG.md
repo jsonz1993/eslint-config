@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-basic
 
+## 0.4.0
+
+### Minor Changes
+
+- 23d4676: add prettier plugin and change brace-style rule
+
 ## 0.3.0
 
 ### Minor Changes
