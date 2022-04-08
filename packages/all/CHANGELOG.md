@@ -1,5 +1,16 @@
 # @jsonz/eslint-config
 
+## 0.5.0
+
+### Minor Changes
+
+- d94967b: update rules: curly => off
+
+### Patch Changes
+
+- Updated dependencies [d94967b]
+  - @jsonz/eslint-config-react@0.5.0
+
 ## 0.4.0
 
 ### Minor Changes
