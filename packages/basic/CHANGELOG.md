@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-basic
 
+## 0.5.0
+
+### Minor Changes
+
+- d94967b: update rules: curly => off
+
 ## 0.4.0
 
 ### Minor Changes
