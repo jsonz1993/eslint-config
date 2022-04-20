@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-basic
 
+## 0.6.1
+
+### Patch Changes
+
+- 3f0dca6: fix rules error
+
 ## 0.6.0
 
 ### Minor Changes
