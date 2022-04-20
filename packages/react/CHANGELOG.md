@@ -1,5 +1,13 @@
 # @jsonz/eslint-config-react
 
+## 0.6.1
+
+### Patch Changes
+
+- 3f0dca6: fix rules error
+- Updated dependencies [3f0dca6]
+  - @jsonz/eslint-config-ts@0.6.1
+
 ## 0.6.0
 
 ### Minor Changes
