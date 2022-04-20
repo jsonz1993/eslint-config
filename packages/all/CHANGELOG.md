@@ -1,5 +1,16 @@
 # @jsonz/eslint-config
 
+## 0.6.0
+
+### Minor Changes
+
+- e633d47: update rules
+
+### Patch Changes
+
+- Updated dependencies [e633d47]
+  - @jsonz/eslint-config-react@0.6.0
+
 ## 0.5.0
 
 ### Minor Changes
