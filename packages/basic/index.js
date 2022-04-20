@@ -45,9 +45,9 @@ module.exports = {
 
     // common
     'semi': ['error', 'never'],
-    'curly': ['off'],
+    'curly': ['consistent'],
     'quotes': ['error', 'single'],
-    'quote-props': ['error', 'consistent-as-needed'],
+    'quote-props': ['error', 'consistent'],
     'no-console': ['warn'],
 
     'space-before-function-paren': ['error', { anonymous: 'always', named: 'never', asyncArrow: 'always' }],
