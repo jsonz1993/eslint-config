@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-basic
 
+## 0.6.0
+
+### Minor Changes
+
+- e633d47: update rules
+
 ## 0.5.0
 
 ### Minor Changes
