@@ -45,7 +45,7 @@ module.exports = {
 
     // common
     'semi': ['error', 'never'],
-    'curly': ['error', 'consistent'],
+    // 'curly': ['error', 'multi-or-nest', 'consistent'],
     'quotes': ['error', 'single'],
     'quote-props': ['error', 'consistent'],
     'no-console': ['warn'],
