@@ -1,5 +1,13 @@
 # @jsonz/eslint-config-react
 
+## 0.6.2
+
+### Patch Changes
+
+- 6506219: remove curly rules
+- Updated dependencies [6506219]
+  - @jsonz/eslint-config-ts@0.6.2
+
 ## 0.6.1
 
 ### Patch Changes
