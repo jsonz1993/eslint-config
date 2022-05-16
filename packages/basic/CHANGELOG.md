@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-basic
 
+## 0.7.1
+
+### Patch Changes
+
+- 62fdf6a: update deps
+
 ## 0.7.0
 
 ### Minor Changes
