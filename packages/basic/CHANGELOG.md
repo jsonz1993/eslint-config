@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-basic
 
+## 0.6.2
+
+### Patch Changes
+
+- 6506219: remove curly rules
+
 ## 0.6.1
 
 ### Patch Changes
