@@ -3,7 +3,7 @@
  * @Date: 2022-01-18 15:32:13
  * @Email: jsonz@qq.com
  * @LastEditors: Jsonz
- * @LastEditTime: 2022-02-11 11:09:05
+ * @LastEditTime: 2022-05-16 10:52:15
  * @Description: file content
  */
 
@@ -46,6 +46,7 @@ module.exports = {
     // common
     'semi': ['error', 'never'],
     // 'curly': ['error', 'multi-or-nest', 'consistent'],
+    'eslint-comments/disable-enable-pair': ['off'],
     'quotes': ['error', 'single'],
     'quote-props': ['error', 'consistent'],
     'no-console': ['warn'],
