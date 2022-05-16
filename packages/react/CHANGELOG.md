@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-react
 
+## 0.7.1
+
+### Patch Changes
+
+- @jsonz/eslint-config-ts@0.7.1
+
 ## 0.7.0
 
 ### Minor Changes
