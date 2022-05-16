@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-basic
 
+## 0.7.0
+
+### Minor Changes
+
+- ea8fd3e: close "disableeslint-comments/disable-enable-pair"
+
 ## 0.6.2
 
 ### Patch Changes
