@@ -3,7 +3,7 @@
  * @Date: 2022-01-18 16:10:20
  * @Email: jsonz@qq.com
  * @LastEditors: Jsonz
- * @LastEditTime: 2022-02-10 17:21:49
+ * @LastEditTime: 2022-06-22 15:17:10
  * @Description: file content
  */
 const basic = require('@jsonz/eslint-config-basic')
@@ -23,6 +23,8 @@ module.exports = {
     '@typescript-eslint/semi': ['error', 'never'],
 
     // Override JS
+    'space-before-function-paren': 'off',
+    '@typescript-eslint/space-before-function-paren': ['error', { anonymous: 'always', named: 'never', asyncArrow: 'always' }],
     'no-useless-constructor': 'off',
     'indent': 'off',
     '@typescript-eslint/indent': ['error', 2],
