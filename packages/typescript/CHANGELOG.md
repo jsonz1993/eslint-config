@@ -1,5 +1,12 @@
 # @jsonz/eslint-config-ts
 
+## 0.7.1
+
+### Patch Changes
+
+- Updated dependencies [62fdf6a]
+  - @jsonz/eslint-config-basic@0.7.1
+
 ## 0.7.0
 
 ### Minor Changes
