@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-ts
 
+## 0.7.2
+
+### Patch Changes
+
+- e75aa0d: update space-before-function-paren
+
 ## 0.7.1
 
 ### Patch Changes
