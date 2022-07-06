@@ -1,14 +1,11 @@
 {
-  "name": "@jsonz/eslint-config",
-  "version": "0.7.1",
+  "name": "@jsonz/eslint-config-prettier",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "files": [
     "index.js"
   ],
-  "scripts": {
-    "lint": "eslint . --config=index.js"
-  },
   "keywords": [],
   "author": "jsonz <jsonz@qq.com> (https://github.com/jsonz1993)",
   "license": "MIT",
@@ -19,10 +16,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@jsonz/eslint-config-prettier": "workspace:*",
-    "@jsonz/eslint-config-react": "workspace:*"
-  },
-  "devDependencies": {
-    "eslint": "^8.7.0"
+    "eslint-config-prettier": "^8.5.0"
   }
 }

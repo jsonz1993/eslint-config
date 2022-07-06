@@ -36,9 +36,11 @@ importers:
 
   packages/all:
     specifiers:
+      '@jsonz/eslint-config-prettier': workspace:*
       '@jsonz/eslint-config-react': workspace:*
       eslint: ^8.7.0
     dependencies:
+      '@jsonz/eslint-config-prettier': link:../prettier
       '@jsonz/eslint-config-react': link:../react
     devDependencies:
       eslint: 8.7.0
@@ -46,7 +48,6 @@ importers:
   packages/basic:
     specifiers:
       eslint: ^8.7.0
-      eslint-config-prettier: ^8.3.0
       eslint-config-standard: ^17.0.0-0
       eslint-plugin-eslint-comments: ^3.2.0
       eslint-plugin-import: ^2.25.4
@@ -54,7 +55,6 @@ importers:
       eslint-plugin-node: ^11.1.0
       eslint-plugin-promise: ^6.0.0
     dependencies:
-      eslint-config-prettier: 8.3.0_eslint@8.7.0
       eslint-config-standard: 17.0.0-0_cffeb9f68be8710f1df1c01adf2df869
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.7.0
       eslint-plugin-import: 2.25.4_eslint@8.7.0
@@ -63,6 +63,12 @@ importers:
       eslint-plugin-promise: 6.0.0_eslint@8.7.0
     devDependencies:
       eslint: 8.7.0
+
+  packages/prettier:
+    specifiers:
+      eslint-config-prettier: ^8.5.0
+    dependencies:
+      eslint-config-prettier: 8.5.0
 
   packages/react:
     specifiers:
@@ -1550,13 +1556,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier/8.3.0_eslint@8.7.0:
-    resolution: {integrity: sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==}
+  /eslint-config-prettier/8.5.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
-    dependencies:
-      eslint: 8.7.0
     dev: false
 
   /eslint-config-standard/17.0.0-0_cffeb9f68be8710f1df1c01adf2df869:

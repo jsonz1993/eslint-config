@@ -3,7 +3,7 @@
  * @Date: 2022-01-18 15:32:13
  * @Email: jsonz@qq.com
  * @LastEditors: Jsonz
- * @LastEditTime: 2022-05-16 10:52:15
+ * @LastEditTime: 2022-07-06 14:26:36
  * @Description: file content
  */
 
@@ -17,7 +17,6 @@ module.exports = {
     'eslint:recommended',
     'standard',
     'plugin:eslint-comments/recommended',
-    'prettier',
   ],
   settings: {
     'import/resolver': {
