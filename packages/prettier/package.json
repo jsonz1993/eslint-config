@@ -16,6 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.5.0"
+    "@jsonz/eslint-config-basic": "workspace:^0.7.1",
+    "eslint-plugin-prettier": "^4.2.1"
   }
 }
