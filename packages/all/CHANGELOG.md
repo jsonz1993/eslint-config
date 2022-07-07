@@ -1,5 +1,12 @@
 # @jsonz/eslint-config
 
+## 0.8.1
+
+### Patch Changes
+
+- Updated dependencies [9b5d86f]
+  - @jsonz/eslint-config-prettier@0.1.1
+
 ## 0.8.0
 
 ### Minor Changes
