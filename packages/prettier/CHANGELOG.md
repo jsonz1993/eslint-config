@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-prettier
 
+## 0.2.0
+
+### Minor Changes
+
+- c988ddf: extends basic
+
 ## 0.1.1
 
 ### Patch Changes
