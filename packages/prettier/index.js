@@ -3,11 +3,11 @@
  * @Date: 2022-07-06 13:15:11
  * @Email: jsonz@qq.com
  * @LastEditors: Jsonz
- * @LastEditTime: 2022-07-07 12:29:39
+ * @LastEditTime: 2022-07-09 09:38:01
  * @Description: file content
  */
 module.exports = {
-  extends: ['@jsonz/eslint-config-ts'],
+  extends: ['@jsonz/eslint-config-basic'],
   plugins: ['prettier'],
   rules: {
     'wrap-iife': 'off',
