@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-react
 
+## 0.8.0
+
+### Minor Changes
+
+- 1b7d08b: add react-hooks rules
+
 ## 0.7.2
 
 ### Patch Changes
