@@ -1,5 +1,11 @@
 # @jsonz/eslint-config
 
+## 0.9.0
+
+### Minor Changes
+
+- 6971d5f: eslint extends order, prettier < basic < ts < react
+
 ## 0.8.4
 
 ### Patch Changes
