@@ -1,5 +1,11 @@
 # @jsonz/eslint-config-basic
 
+## 0.7.2
+
+### Patch Changes
+
+- 18338dc: fix: prettier
+
 ## 0.7.1
 
 ### Patch Changes

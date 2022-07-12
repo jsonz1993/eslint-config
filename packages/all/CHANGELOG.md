@@ -1,5 +1,11 @@
 # @jsonz/eslint-config
 
+## 0.8.4
+
+### Patch Changes
+
+- @jsonz/eslint-config-react@0.8.1
+
 ## 0.8.3
 
 ### Patch Changes
