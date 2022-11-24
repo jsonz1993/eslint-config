@@ -1,5 +1,12 @@
 # @jsonz/eslint-config
 
+## 0.9.1
+
+### Patch Changes
+
+- @jsonz/eslint-config-prettier@0.2.1
+- @jsonz/eslint-config-react@0.8.2
+
 ## 0.9.0
 
 ### Minor Changes

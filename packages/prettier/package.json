@@ -1,6 +1,6 @@
 {
   "name": "@jsonz/eslint-config-prettier",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "",
   "main": "index.js",
   "files": [
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@jsonz/eslint-config-basic": "workspace:^0.7.1",
+    "@jsonz/eslint-config-basic": "workspace:^0.8.0",
     "eslint-plugin-prettier": "^4.2.1"
   }
 }
