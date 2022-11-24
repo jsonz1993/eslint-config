@@ -3,7 +3,7 @@
  * @Date: 2022-01-18 15:32:13
  * @Email: jsonz@qq.com
  * @LastEditors: Jsonz
- * @LastEditTime: 2022-07-06 14:26:36
+ * @LastEditTime: 2022-11-24 19:35:55
  * @Description: file content
  */
 
@@ -51,5 +51,8 @@ module.exports = {
     'no-console': ['warn'],
 
     'space-before-function-paren': ['error', { anonymous: 'always', named: 'never', asyncArrow: 'always' }],
+
+    'prefer-promise-reject-errors': 'off',
+    'promise/param-names': 'off',
   },
 }

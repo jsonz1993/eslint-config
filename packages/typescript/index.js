@@ -3,7 +3,7 @@
  * @Date: 2022-01-18 16:10:20
  * @Email: jsonz@qq.com
  * @LastEditors: Jsonz
- * @LastEditTime: 2022-06-22 15:17:10
+ * @LastEditTime: 2022-11-24 19:43:31
  * @Description: file content
  */
 const basic = require('@jsonz/eslint-config-basic')
@@ -56,7 +56,7 @@ module.exports = {
       'ts-expect-error': 'allow-with-description',
       'ts-ignore': 'allow-with-description',
       'ts-nocheck': 'allow-with-description',
-      'ts-check':  'allow-with-description',
+      'ts-check': 'allow-with-description',
     }],
   },
 }
